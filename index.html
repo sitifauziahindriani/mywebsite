@@ -2,18 +2,36 @@
 <html lang="en">
 
 <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="version control" content="belajar version control">
+    <meta name="description" content="belajar version control">
 
-    <title>Document</title>
+    <title>mywebsite</title>
 </head>
 
 <body>
 
+    <div class="modalMenu" onclick="hideModal()">
 
-    <script rsc="main.js"></script>
+        <span class="material-icons closeIcon" onclick="hideModal()">close</span>
+        <a href="#home" onclick="hideModal()">HOME</a>
+        <a href="#about" onclick="hideModal()">ABOUT</a>
+        <a href="#contact" onclick="hideModal()">CONTAC</a>
+        <a href="#gallery" onclick="hideModal()">GALLERY</a>
+
+    </div>
+
+    <nav class=" navbar">
+        <h3 class="brand">FAUZIAH</h3>
+
+        <span class="material-icons menuIcon" onclick="showModal()">menu</span>
+
+    </nav>
+
+    <script src="./main.js"> </script>
+
 </body>
 
 </html>
